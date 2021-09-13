@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>ROCK PAPER SCISSORS</h1>
+    </div>
+
+    <div class="container-body">
+      <div class="left-side">
+        <div class="player-choice">
+          <h3>PLAYER:</h3>
+          <p id="player-text">Can</p>
+        </div>
+        <div class="buttons-container">
+          <div class="rock-container">
+              <button class="rock-button">Rock</button>
+          </div>
+          <div class="paper-container">
+            <button class="paper-button">Paper</button>
+          </div>
+          <div class="scissor-container">
+            <button class="scissors-button">Scissors</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <div class="computer-choice">
+          <h3>OPPONENT:</h3>
+          <p id="computer-choice-text">
+            You
+          </p>
+          <img
+            src="https://pxt.azureedge.net/blob/68f66c3ddc3acfc4c53157abf92eace202d46db2/static/courses/csintro/conditionals/rock-paper-scissors-items.png"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="middle-of-page">
+        <div class="results">
+          <h3>RESULTS:</h3>
+          <p id="winner-text">Win?</p>
+        </div>
+
+        <div><button class="play-button">Play Again</button></div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
